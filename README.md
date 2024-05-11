@@ -6,3 +6,6 @@
 
 ## Project 2
 ![plot](./images/project2.png)
+
+## Project 3
+![plot](./images/project3.png)
