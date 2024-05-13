@@ -15,3 +15,6 @@
 
 ## Project 5
 ![plot](./images/project5.png)
+
+## Project 6
+![plot](./images/project6.png)
