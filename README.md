@@ -18,3 +18,6 @@
 
 ## Project 6
 ![plot](./images/project6.png)
+
+## Project 6
+![plot](./images/project7.png)
