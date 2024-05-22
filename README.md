@@ -21,3 +21,7 @@
 
 ## Project 6
 ![plot](./images/project7.png)
+
+
+## Guessing Game
+![plot](./images/guessing-game.png)
