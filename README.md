@@ -25,3 +25,6 @@
 
 ## Guessing Game
 ![plot](./images/guessing-game.png)
+
+## IMC
+![plot](./images/imc.png)

@@ -1,6 +1,6 @@
 import { Modal } from './modal.js';
 import { AlertError } from './alert-error.js';
-import { IMC, notNumber } from './utils.js';
+import { calculateIMC, notNumber } from './utils.js';
 
 const form = document.querySelector('form');
 const inputWeight = document.querySelector('#weight');
