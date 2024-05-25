@@ -22,9 +22,11 @@
 ## Project 6
 ![plot](./images/project7.png)
 
-
 ## Guessing Game
 ![plot](./images/guessing-game.png)
 
 ## IMC
 ![plot](./images/imc.png)
+
+## GitHub Favorites
+![plot](./images/github-favorites.png)
