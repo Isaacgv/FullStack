@@ -19,6 +19,18 @@ HTTP Methods :
     DELETE : Delete
     PATCH : Partial Update
 
+DML - Data Manipulation Language:
+    - SELECT
+    - INSERT
+    - UPDATE
+    - DELETE
+
+DDL - Data Definition Language:
+    - CREATE
+    - ALTER
+    - DROP
+    - TRUNCATE  
+
 Developper Tools :
 
     - nodemon : auto restart server when file change
