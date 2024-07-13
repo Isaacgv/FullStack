@@ -1,10 +1,12 @@
-import { FiPlus, FiSearch } from "react-icons/fi";
+import { FiPlus } from "react-icons/fi";
 import { Container, Brand, Menu, Search, Content, NewNote } from "./styles";
 import {Header} from '../../components/Header';
 import { Input } from "../../components/Input"; 
 import { Note } from "../../components/Note";
 import { Section } from "../../components/Section";
 import { ButtonText } from "../../components/ButtonText";
+import { Link } from "react-router-dom";
+
 export function Home() {
     return(
         <Container>
@@ -33,10 +35,9 @@ export function Home() {
 
                 </Section>
             </Content>
-            <NewNote>
+            <NewNote to="/new">
                 <FiPlus/>
                     Create Note
-               
             </NewNote>       
          
         </Container>
