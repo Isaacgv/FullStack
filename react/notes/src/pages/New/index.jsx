@@ -1,6 +1,9 @@
 import { Header } from "../../components/Header";
 import { Input } from "../../components/Input";
 import { Textarea } from "../../components/Textarea";
+import { NoteItem } from "../../components/NoteItem";
+import { Section} from "../../components/Section";
+import { Button } from "../../components/Button";
 
 import { Container, Form } from "./styles";
 
@@ -17,7 +20,22 @@ export function New() {
                     </header>
 
                     <Input placeholder="Title" />
-                    <Textarea placeholder="Notes"/>      
+                    <Textarea placeholder="Notes"/>  
+
+                    <Section title="Links">
+                        <NoteItem value="https://"/>       
+                        <NoteItem isNew placeholder="New Link"/>       
+                    </Section>
+
+                    <Section title="Tags">
+                        <div className="tags">
+                            <NoteItem value="react"/>       
+                            <NoteItem isNew placeholder="New Tag"/>   
+                        </div>
+                        
+                    </Section>
+
+                    <Button title="Save"/>
 
                 </Form>
             </main>
