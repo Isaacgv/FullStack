@@ -61,3 +61,7 @@ SQL Query Builder
 
     Run migration:
     -npx knex migrate:latest => npm run migrate
+
+Imstall:
+
+    - npm install jsonwebtoken
