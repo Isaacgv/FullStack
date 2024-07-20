@@ -32,7 +32,7 @@ class UsersController {
             [name, email, hashedPassword]
         );
 
-        response.status(201).json({name, email});
+        return response.status(201).json({name, email});
     }
 
     async update(request, response) {
