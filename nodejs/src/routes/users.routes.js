@@ -1,7 +1,7 @@
 const { Router } = require('express');
 
 const UsersController = require('../controllers/UsersController');
-
+const ensureAuthenticated = require("../middlewares/ensureAuthenticated")
 const usersRouter = Router();
 
 function myMiddleware(request, response, next) {
@@ -19,7 +19,7 @@ const usersController = new UsersController();
 //usersRouter.use(myMiddleware);
 
 usersRouter.post('/', myMiddleware, usersController.create);
-usersRouter.put('/:id', usersController.update);
+usersRouter.put('/', ensureAuthenticated, usersController.update);
 
 //Query params -> /users?id=1&user=Jhon
 usersRouter.get('/users', (request, response) => {
